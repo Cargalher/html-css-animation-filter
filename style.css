@@ -84,6 +84,8 @@ height:300px;
     border-radius: 10px;
     filter:brightness(1.3) opacity(0.5);
     cursor: pointer;
+    width:800px;
+    transition: 2s;
 }
 
 /* Nine */
@@ -140,7 +142,9 @@ height:300px;
       -webkit-transform: rotate(270deg);
     }
   }
-  /* Twelve */
+
+
+  /* Twelve & Thirty */
  
 .ex-12-button, .ex-13-button {
     position: relative;
@@ -154,6 +158,7 @@ height:300px;
     line-height: 70px;
     text-align: center;
     text-decoration: none;
+     
 }
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
@@ -171,3 +176,5 @@ height:300px;
     width: 60px;
     height: 20px;
 }
+
+      
