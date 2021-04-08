@@ -96,15 +96,13 @@ height:300px;
     border-radius: 15px;
     filter: url('#grain') grayscale(0.6) sepia(0.5) brightness(1.5);
     width:800px;
-    
 }
 /* Ten */
 .ex-10-icon {
     font-size: 60px;
-}
-i{
     animation: infinite-spinning 0.5s infinite;
 }
+
 @keyframes infinite-spinning {
     from {
       transform: rotate(0deg);
@@ -113,9 +111,21 @@ i{
       transform: rotate(360deg);
     }
   }
+  /* Eleven */
+
 .ex-11-icon {
     font-size: 60px;
+    cursor: pointer;
 }
+.ex-11-icon:hover{
+   animation: hover_spinning 2s alternate;
+}
+@keyframes hover_spinning  {
+    to {
+      -webkit-transform: rotate(270deg);
+    }
+  }
+ 
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
