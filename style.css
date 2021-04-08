@@ -98,9 +98,20 @@ height:300px;
     width:800px;
     
 }
+/* Ten */
 .ex-10-icon {
     font-size: 60px;
+    animation: infinite-spinning 0.5s infinite;
+    @keyframes infinite-spinning {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
 }
+
 .ex-11-icon {
     font-size: 60px;
 }
