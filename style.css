@@ -45,7 +45,8 @@ height:300px;
 }
 .ex-4-square:hover{
     opacity:0;
-    transition: background 2s;
+    transition:2s;
+    display: block;
 }
 .ex-5-square {
     margin: 20px;
