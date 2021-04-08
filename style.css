@@ -3,12 +3,12 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
-    transition: background 5s;
-    
+    transition: background 5s;   
+    cursor: pointer;
 }
 .ex-1-square:hover{
     background-color: red;
-    cursor: pointer;
+    
 }
 
 /*two*/ 
@@ -16,10 +16,14 @@
     width: 100px;
     height: 100px;
     background: red;
+    cursor: pointer;
+} 
+.ex-2-square:active{
+width: 900px;
+height:300px;
 }
-.ex-2-square:{
 
-}
+
 .ex-3-square {
     width: 100px;
     height: 100px;
