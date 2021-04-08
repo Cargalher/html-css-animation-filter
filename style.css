@@ -83,11 +83,20 @@ height:300px;
 .ex-8-img:hover{
     border-radius: 10px;
     filter:brightness(1.3) opacity(0.5);
+    cursor: pointer;
 }
 
+/* Nine */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    cursor: pointer;
+}
+.ex-9-img:hover{
+    border-radius: 15px;
+    filter: url('#grain') grayscale(0.6) sepia(0.5) brightness(1.5);
+    width:800px;
+    
 }
 .ex-10-icon {
     font-size: 60px;
