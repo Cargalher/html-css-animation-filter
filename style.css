@@ -29,17 +29,23 @@ height:300px;
     height: 100px;
     background: red;
     cursor: pointer;
-    
 }
 .ex-3-square:hover{
     transition: 3s;
     border-radius: 50%;
 }
 
+/*Four*/ 
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    cursor: pointer;
+    
+}
+.ex-4-square:hover{
+    opacity:0;
+    transition: background 2s;
 }
 .ex-5-square {
     margin: 20px;
