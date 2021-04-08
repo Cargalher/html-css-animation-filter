@@ -177,4 +177,36 @@ height:300px;
     height: 20px;
 }
 
-      
+.ex-12-button:hover .ex-12-top-white  {
+    animation: btn_one_top 2s linear;
+    border-bottom: 3px solid #1b3c59;
+    position: absolute;
+    bottom:4px;
+}
+@keyframes btn_one_top {
+    0%{
+        left:10%;
+    }
+    50%{
+        left:calc (100% - 60);
+    }
+    100% {
+        left:10%; 
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: btn_one_bottom 2s linear;
+    border-bottom: 3px solid #1b3c59;
+   
+}
+@keyframes btn_one_bottom {
+    0%   {
+        right:20%;
+    }
+    50%{
+        right:calc (100% - 60);
+    }
+    100% {
+        right:20%; 
+    }
+}
