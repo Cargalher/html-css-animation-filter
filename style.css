@@ -23,12 +23,19 @@ width: 900px;
 height:300px;
 }
 
-
+/*three*/ 
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    cursor: pointer;
+    
 }
+.ex-3-square:hover{
+    transition: 3s;
+    border-radius: 50%;
+}
+
 .ex-4-square {
     width: 100px;
     height: 100px;
